@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background: #f9f9f9;
+}
+
+.container {
+    width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header {
+    width: 100%;
+    overflow: hidden;
+    background: #e63c35;
+    padding: 6px 0px;
+    /*    つけたし*/
+    position: fixed;
+    z-index: 2;
+    /*    つけたし*/
+}
+#he{
+    width: 100%;
+    overflow: hidden;
+    background: #00008B;
+    padding: 10px 0px;
+    margin: 60px 0px;
+    /*    つけたし*/
+    position: fixed;
+    z-index: 2;
+    /*    つけたし*/
+    color: white;
+        
+}
+
+#header h1 {
+    float: left;
+    color: #f9f9f9;
+    margin-right: 48px;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+    margin-top: 2px;
+}
+
+nav h1 {
+    font-size: 32px;
+    padding: 8px 16px;
+    color: #f9f9f9;
+    text-shadow: 1px 1px 1px #000;
+}
+
+nav a {
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+    color: #f9f9f9;
+    margin: 14px 16px 0px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    border-bottom: 3px solid #f9f9f9;
+}
+
+nav:after {
+    clear: both;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    margin-bottom: 32px;
+    /*    つけたし*/
+    padding-top: 60px;
+    /*    つけたし*/
+}
+
+#main {
+    width: 690px;
+    float: inherit
+    background: #fff;
+    padding: 16px;
+}
+/*    つけたし*/
+#contents1 {
+    position: relative;
+}
+#contents3 {
+        clear: both;
+}
+
+p.new {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #e63c35;
+    color: white;
+    text-align: center;
+    line-height: 65px;
+    position: absolute;
+    font-size: 25px;
+    right: 16px;
+    top: 16px;
+}
+/*    つけたし*/
+
+.top-title {
+    font-size: 36px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    color: #555;
+    font-weight: 400;
+    border-left: 6px solid #e63c35;
+    
+}
+
+.right-box {
+    float: left;
+    width: 288px;
+    margin-left: 18px;
+}
+
+.left-box {
+    float: left;
+    width: 288px;
+    margin-right: 18px;
+}
+
+.content {
+    border-bottom: 1px solid #eee;
+    padding: 16px 0;
+    overflow:hidden
+}
+
+.content:last-child {
+    border-bottom: 0;
+}
+
+#main img {
+    float: left;
+}
+
+#main h2 {
+    color: #e63c35;
+}
+
+#main p {
+    margin-bottom: 16px;
+}
+
+#main a {
+    margin-top: 16px;
+    font-size: 16px;
+    padding: 8px 32px;
+    background: #3B5998;
+    color: #f9f9f9;
+    border: 2px solid #3B5998;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#main a:hover {
+    background: #f9f9f9;
+    color: #3B5998;
+    border: 2px solid #3B5998;
+}
+
+#sidebar {
+    width: 280px;
+    margin: 0px 12px;
+    background: #fff;
+    padding: 8px;
+}
+
+#sidebar img {
+    margin-bottom: 16px;
+}
+
+#sidebar h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+#sidebar p {
+    font-size: 16px;
+    
+}
+.btn a {
+    display: block;
+    cursor: pointer;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #20b2aa;
+    box-shadow: 0 6px 0 #047c71, 0 12px 0 rgba(0,0,0,0.2);
+    -webkit-transition: color 0.3s, background-color 0.3s, box-shadow 0.3s, -webkit-transform 0.3s;
+    transition: color 0.3s, background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+    width: 200px;
+}
+.btn a:hover {
+    background-color: #3cc4bd;
+    box-shadow: 0 3px 0 #12978d, 0 6px 0px rgba(0,0,0,0.2);
+    -webkit-transform: translateY(3px);
+    transform: translateY(3px);
+}
+.btn a:active {
+    color: #ddd;
+    background-color: #12978d;
+    box-shadow: 0 0 0 #047c71, 0 0 0px rgba(0,0,0,0.2);
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+    transition-duration: 0.1s;
+}
+.fish1 i.fa.fa-tag {	 	 
+ -moz-transform:    rotate( -45deg );
+ -webkit-transform: rotate( -45deg );
+ -o-transform:      rotate( -45deg );
+ -ms-transform:     rotate( -45deg );
+ transform:         rotate( -45deg );	 	 
+}	 	 
+.fish1 i.fa.fa-chevron-left {	 	 
+ margin-left: -9px;	 	 	 	 
+}	
